@@ -5,9 +5,9 @@
 <h1 align="center">Python Mini Game</h1>
 
 <div align="center">
-  <a href="">
-    <img src="" height="35">
-  </a>&nbsp;
+  <a href="https://www.python.org" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" height="35">
+  </a>
 </div>
 
 ## :computer: URL
@@ -21,6 +21,7 @@ Learn algorithms while developing games with Python.
 ## :hammer: Requirement
 
 - macOS
+- Python3
 
 ## :pushpin: Usage
 
