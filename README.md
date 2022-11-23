@@ -16,7 +16,7 @@
 
 ## :pencil2: Overview
 
-...
+Learn algorithms while developing games with Python.
 
 ## :hammer: Requirement
 
@@ -32,7 +32,7 @@
 
 ## :green_book: Reference
 
-...
+- [【Python】ゲーム開発をしながらアルゴリズムを学ぼう](https://www.udemy.com/course/python-game/)
 
 ## :hatching_chick: Author
 
