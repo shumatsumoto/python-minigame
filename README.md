@@ -25,7 +25,30 @@ Learn algorithms while developing games with Python.
 
 ## :pushpin: Usage
 
-...
+Git clone
+```
+$ git clone https://github.com/shumatsumoto/python-minigame.git
+```
+Move to directory
+```
+$ cd python-minigame
+```
+Virtual environment construction
+```
+$ python3 -m venv [newenvname]
+```
+Activate
+```
+$ source [newenvname]/bin/activate
+```
+Package install
+```
+$ pip install pygame
+```
+Start up PyGame
+```
+$ Python3 [filename]
+```
 
 ## :railway_car: Features
 
