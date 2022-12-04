@@ -22,6 +22,15 @@ MAP=["WWWWWWWWWWWWWWWW",
 def screen_coords(x, y):
   return(x * GRID_SIZE, y * GRID_SIZE)
 
+def setup_game():
+  global player
+  player = Actor("player", anchor = ("left", "top"))
+  for y in range(GRID_HEIGHT):
+    for x in range(GRID_WIDTH):
+      square = MAP[y][x]
+      if square == "P":
+        player.pos = screen_coords(x, y)
+
 def draw_background():
   for y in range(GRID_HEIGHT):
     for x in range(GRID_WIDTH):
@@ -36,7 +45,13 @@ def draw_scenery():
       elif square == "D":
         screen.blit("door", screen_coords(x, y))
 
+def draw_actors():
+  player.draw()
+
 def draw():
   draw_background()
   draw_scenery()
+  draw_actors()
+
+setup_game()
 pgzrun.go()
