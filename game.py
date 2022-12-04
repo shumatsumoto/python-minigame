@@ -9,7 +9,7 @@ BACKGROUND_SEED=123456
 WIDTH=GRID_WIDTH*GRID_SIZE
 HEIGHT=GRID_HEIGHT*GRID_SIZE
 MAP=["WWWWWWWWWWWWWWWW",
-     "W           K  W",
+     "W           K  D",
      "W  K           W",
      "W  W  KG       W",
      "W  WWWWWWWWWW  W",
@@ -18,7 +18,7 @@ MAP=["WWWWWWWWWWWWWWWW",
      "W  WWWWWWWWWW  W",
      "W      GK   W  W",
      "W              W",
-     "W  K       K   D",
+     "W  K       K   W",
      "WWWWWWWWWWWWWWWW"]
 def screen_coords(x,y):
     return(x*GRID_SIZE,y*GRID_SIZE)
