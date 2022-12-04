@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/11171872/203345580-40a14fa9-b1f0-4c29-a042-138ff78f7d9b.jpg" width="500">
+  <img src="https://user-images.githubusercontent.com/11171872/205191004-bee8d67e-ca09-4a01-b432-83c81c44a51f.gif" width="500">
 </div>
 
 <h1 align="center">Python Mini Game</h1>
@@ -25,7 +25,30 @@ Learn algorithms while developing games with Python.
 
 ## :pushpin: Usage
 
-...
+Git clone
+```
+$ git clone https://github.com/shumatsumoto/python-minigame.git
+```
+Move to directory
+```
+$ cd python-minigame
+```
+Virtual environment construction
+```
+$ python3 -m venv [newenvname]
+```
+Activate
+```
+$ source [newenvname]/bin/activate
+```
+Package install
+```
+$ pip install pygame
+```
+Start up PyGame
+```
+$ Python3 [filename]
+```
 
 ## :railway_car: Features
 
