@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/11171872/205191004-bee8d67e-ca09-4a01-b432-83c81c44a51f.gif" width="500">
+  <img src="https://user-images.githubusercontent.com/11171872/208252803-7724afcd-dc1e-4539-a388-46e92e6c617a.gif" width="500">
 </div>
 
 <h1 align="center">Python Mini Game</h1>
